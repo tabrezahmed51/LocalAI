@@ -1,11 +1,11 @@
 --extra-index-url https://download.pytorch.org/whl/rocm7.0
-torch==2.12.1+cu130
+torch==2.15.0+xpu
 accelerate
-transformers>=5.14.1
+transformers>=5.24.1
 llvmlite==0.43.0
 numba==0.60.0
 bitsandbytes
-sentence-transformers==5.4.0
+sentence-transformers==5.6.0
 diffusers
 soundfile
 protobuf==6.33.5

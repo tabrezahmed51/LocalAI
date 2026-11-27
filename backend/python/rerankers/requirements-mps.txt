@@ -1,4 +1,4 @@
-torch==2.12.1+cu130
+torch==2.15.0+xpu
 transformers
 accelerate
 rerankers[transformers]
